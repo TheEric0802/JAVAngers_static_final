@@ -14,5 +14,10 @@ public class Main {
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
+
+        System.out.println(Calculator.add(5, 3));
+        System.out.println(Calculator.subtract(5, 3));
+        System.out.println(Calculator.multiply(5, 3));
+        System.out.println(Calculator.divide(5, 3));
     }
 }
